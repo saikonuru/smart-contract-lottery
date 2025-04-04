@@ -6,6 +6,10 @@ remappings = [
     '@chainlink/contracts/=lib/chainlink-brownie-contracts/contracts/',
     '@solmate=lib/solmate/src/'
 ]
+fs_permissions = [
+    { access = "read", path = "./broadcast" },
+    { access = "read", path = "./reports" },
+]
 # /home/sairam/blockchain/smart_lottery/lib/chainlink-brownie-contracts/contracts/src/v0.8/dev/vrf/VRFCoordinatorV2Plus.sol
 
 # import {VRFConsumerBaseV2Plus} from "@chainlink/contracts/src/v0.8/vrf/dev/VRFConsumerBaseV2Plus.sol";
