@@ -1,3 +1,8 @@
 {
-  "cSpell.words": ["effficcieentt"]
+  "cSpell.words": ["effficcieentt"],
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[solidity]": {
+    "editor.tabSize": 2
+  }
 }

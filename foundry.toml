@@ -10,7 +10,10 @@ fs_permissions = [
     { access = "read", path = "./broadcast" },
     { access = "read", path = "./reports" },
 ]
-# /home/sairam/blockchain/smart_lottery/lib/chainlink-brownie-contracts/contracts/src/v0.8/dev/vrf/VRFCoordinatorV2Plus.sol
+# via_ir = true
+
+[fuzz]
+runs = 1000
 
 # import {VRFConsumerBaseV2Plus} from "@chainlink/contracts/src/v0.8/vrf/dev/VRFConsumerBaseV2Plus.sol";
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
