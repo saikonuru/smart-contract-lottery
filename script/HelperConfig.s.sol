@@ -118,7 +118,7 @@ contract HelperConfig is CodeConstants, Script {
       return localNetworkConfig;
     }
 
-    console2.log(unicode"⚠️ You have deployed a mock conract!");
+    console2.log(unicode"⚠️ You have deployed a mock contact!");
     console2.log("Make sure this was intentional");
     vm.startBroadcast();
     VRFCoordinatorV2_5Mock vrfCoordinatorV2_5Mock = new VRFCoordinatorV2_5Mock(
